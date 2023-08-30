@@ -3,24 +3,25 @@ const inquirer = require('inquirer')
 const fs = require('fs')
 
 function readmeFormat ({title, userStory, acceptanceCriteria, description, tableOfContents, installation, usage, credits, license}) {
-    return `# README-generator
-    
+    return `
+    # README-generator
+        ${title}
     ## User Story
-    
+        ${userStory}
     ## Acceptance Criteria
-    
+        ${acceptanceCriteria}
     ## Description
-    
+        ${description}
     ## Table Of Contents
-    
+        ${tableOfContents}
     ## Installation
-    
+        ${installation}
     ## Usage
-    
+        ${usage}
     ## Credits
-    
+        ${credits}
     ## License
-    
+        ${license}
     ## Screenshot(s)`;
 }
 
@@ -55,19 +56,24 @@ inquirer
         {
             type: 'input',
             name: 'usage',
-            message: 'What is the title of this application?',
+            message: 'What is it like to use this application?',
         },
         {
             type: 'input',
             name: 'credits',
-            message: 'What is the title of this application?',
+            message: 'Are there any credits to be made for this application?',
         },
         {
             type: 'input',
             name: 'license',
-            message: 'What is the title of this application?',
+            message: 'What is the license of this application?',
         },
-])
+    ])
+
+    .then((response) => {
+        console.log(response);
+
+    });
 
 // write a function that autocomletes the TOC for the file based off the users input
-function tableOfContents()
+// function tableOfContents()
