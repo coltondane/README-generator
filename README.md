@@ -8,7 +8,7 @@ an application the a programmer may utilize to quickly generate a formatted READ
 ## Description
 
 ## Table Of Contents
-
+    [Installation](#installation)
 ## Installation
 
 ## Usage
