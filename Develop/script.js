@@ -10,10 +10,10 @@ function readmeFormat ({title, description, installation, usage, contribution, t
 ## Table Of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributions](#contrubutions)
+- [Contributions](#contributions)
 - [Tests](#tests)
 - [License](#license)
-- [Questions?](#questions?)
+- [Questions?](#questions)
 ## Installation
     ${installation}
 ## Usage
@@ -24,7 +24,7 @@ function readmeFormat ({title, description, installation, usage, contribution, t
     ${tests}
 ## License
     ${license}
-## Questions?
+## Questions
 - [My GitHub](https://github.com/${userName})
 ## Screenshot(s)`;
 }
