@@ -3,7 +3,7 @@ const inquirer = require('inquirer')
 const fs = require('fs');
 const { log } = require('console');
 
-function readmeFormat ({title, description, installation, usage, contribution, tests, license, userName}, badge) {
+function readmeFormat ({title, description, installation, usage, contribution, tests, license, userName, email}, badge) {
     return `# ${title} ${badge}
 ## Description
     ${description}
@@ -26,6 +26,7 @@ function readmeFormat ({title, description, installation, usage, contribution, t
     ${license}
 ## Questions
 - [My GitHub](https://github.com/${userName})
+    ${email}
 ## Screenshot(s)`;
 }
 
@@ -73,6 +74,11 @@ inquirer
             name: 'userName',
             message: 'What is your GitHub username?',
         },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is a good email users can reach you at?'
+        }
     ])
 
     .then((answers) => {
@@ -102,6 +108,3 @@ inquirer
             err ? log(err) : console.log("README file created!");;
         });
     });
-
-// write a function that autocomletes the TOC for the file based off the users input
-// function tableOfContents()
