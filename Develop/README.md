@@ -1,6 +1,6 @@
-# OOP-svg-generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# book-searching-engine [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-    This application takes into account user input in the CLI via inquirer to gather attributes for a logo that will be generated as an SVG. The user has to first input a string of three letters or less for their logo, along with the text and background color, as well as the shape they would like their logo to take. After the user inputs the required information, a logo.svg file will be generated that the user can then access and view their new logo.
+    This application makes use of a google books API, graphQL, and Apollo Server to operate an account based book searching, and saving website. This app was built using the MERN stack and has been deployed to Heroku as Render was causing a plethora of issues.
 ## Table Of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,11 +9,11 @@
 - [License](#license)
 - [Questions?](#questions)
 ## Installation
-    N/A
+    Naviagte to the root folder and npm i, then run npm run develop if using this application through GitHub
 ## Usage
-    This application is very simple to use and will generate a logo for
+    This application functions a personal user library, allowing the user to search, save, and remove book from their account library
 ## Contributions
-    Kirtley - DU Teaching Advisor
+    George Yoo in assistance
 ## Tests
     N/A
 ## License
