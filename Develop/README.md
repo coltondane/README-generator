@@ -1,6 +1,6 @@
-# book-searching-engine [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# weather-dashboard [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-    This application makes use of a google books API, graphQL, and Apollo Server to operate an account based book searching, and saving website. This app was built using the MERN stack and has been deployed to Heroku as Render was causing a plethora of issues.
+    This application is a simple API fetching weather app that will display the current weather conditions for a searched city. Upon pressing the search button, that search will then be saved to local storage and displayed as a clickable search in the search history area. The dashboard will also display the future five-day forecast for that area.
 ## Table Of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,11 +9,11 @@
 - [License](#license)
 - [Questions?](#questions)
 ## Installation
-    Naviagte to the root folder and npm i, then run npm run develop if using this application through GitHub
+    all the user must do to run this is clone the repo, run npm i, then run node script.js
 ## Usage
-    This application functions a personal user library, allowing the user to search, save, and remove book from their account library
+    this application is very simple to use, all the user has to do is enter the name of a city, or click on their search history elements to make the application run.
 ## Contributions
-    George Yoo in assistance
+    N/A
 ## Tests
     N/A
 ## License
