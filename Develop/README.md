@@ -1,6 +1,6 @@
-# weather-dashboard [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Ecommerce-back-end [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-    This application is a simple API fetching weather app that will display the current weather conditions for a searched city. Upon pressing the search button, that search will then be saved to local storage and displayed as a clickable search in the search history area. The dashboard will also display the future five-day forecast for that area.
+    This is a simple backend sequelize application functioning for an ecommerce website allowing the user to get, post, put, and delete a number of categories, products, and tags.
 ## Table Of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,9 +9,9 @@
 - [License](#license)
 - [Questions?](#questions)
 ## Installation
-    all the user must do to run this is clone the repo, run npm i, then run node script.js
+    once the user clones the repo all they need to do is run npm i and npm run watch to get the application functioning in something like insomnia or postman.
 ## Usage
-    this application is very simple to use, all the user has to do is enter the name of a city, or click on their search history elements to make the application run.
+    this application is very easy to use, all the user must do is enter the routes and JSON body data to their backend application of choice.
 ## Contributions
     N/A
 ## Tests
